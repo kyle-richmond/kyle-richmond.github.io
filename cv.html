@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kyle Richmond – CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Curriculum Vitae</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="cv.html">CV</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <p>
+      <a href="cv.pdf" target="_blank" rel="noopener">
+        Download CV (PDF)
+      </a>
+    </p>
+
+    <object data="cv.pdf" type="application/pdf" width="100%" height="800px">
+      <p>
+        Your browser does not support embedded PDFs.
+        You can <a href="cv.pdf" target="_blank" rel="noopener">download the CV here</a>.
+      </p>
+    </object>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Kyle Richmond</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
