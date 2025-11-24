@@ -78,3 +78,23 @@ footer {
   color: #666;
 }
 
+details {
+  margin-top: 0.2rem;
+}
+
+details summary {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.95rem;
+}
+
+details summary::marker {
+  /* hide the default triangle in some browsers */
+  content: "";
+}
+
+details summary {
+  color: #0055aa;
+ }
+
+
