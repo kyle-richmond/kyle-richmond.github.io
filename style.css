@@ -99,11 +99,12 @@ details summary {
 
 .headshot {
   float: right;
-  width: 300px;
+  width: 100px;
   border-radius: 8px;
   margin-left: 1.5rem;
   margin-bottom: 1rem;
 }
+
 
 
 
